@@ -35,7 +35,7 @@ DEVICE_MANIFEST_YUPIK_FILES += $(DEVICE_PATH)/manifest_dubai.xml
 
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hab.product=dubai
-TARGET_KERNEL_CONFIG += vendor/lineage_dubai.config
+TARGET_KERNEL_CONFIG += vendor/lmodroid_dubai.config
 
 # Kernel Modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
