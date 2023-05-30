@@ -28,7 +28,7 @@ SOONG_CONFIG_qtidisplay_udfps := true
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/device_framework_matrix_dubai.xml
-DEVICE_MANIFEST_YUPIK_FILES += $(DEVICE_PATH)/manifest_dubai.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest_dubai.xml
 
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hab.product=dubai
@@ -58,7 +58,7 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 
 # Security
-VENDOR_SECURITY_PATCH := 2023-02-01
+VENDOR_SECURITY_PATCH := 2023-04-01
 
 # inherit from the proprietary version
 include vendor/motorola/dubai/BoardConfigVendor.mk
