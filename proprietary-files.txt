@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from dubai_g-user 12 S1RDS32.55-106-4 b635a-d573f release-keys.
+# All unpinned blobs below are extracted from dubai_g-user 13 T1RD33.116-33-3 f829db-a0c97 release-keys.
 
 # ACDB Data
 vendor/etc/acdbdata/nn_ns_models/candidate__2.7.1.31__3.0.0__eai_1.10_enpu1.pmd
@@ -411,7 +411,6 @@ vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
 
 # Camera - ICP
-vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/CAMERA_ICP_170.elf
 
 # Camera - Motorola
@@ -472,73 +471,64 @@ vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # HotwordEnrollment
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
 # MotCamera4
--product/app/MotCamera3AI/MotCamera3AI.apk;PRESIGNED
+product/app/MotCamera3AI/MotCamera3AI.apk;PRESIGNED
 product/etc/init/init.motcamera3.lens.rc
--product/priv-app/MotCamera4/MotCamera4.apk;OVERRIDES=Aperture|8bddc6ce07554ca3f04edb92a16378925a9f72f2
-system_ext/etc/public.libraries-motocamera.txt
-system_ext/framework/com.motorola.androidx.camera.extensions.jar
-system_ext/lib/libmcf_native_window_helper.motocamera.so
-system_ext/lib64/libmcf_native_window_helper.motocamera.so
+product/priv-app/MotCamera4/MotCamera4.apk;OVERRIDES=Aperture|9e15a32684556d452e30c73e25be5917352ae3a7
 
 # MotCamera4 - Libs
-product/lib64/libFNVfbEngineHAL.so|a7365d9e7d728df8d4ad6ecfba07961fcf924d75
+product/lib64/libAncHumanSegFigureFusion-jni.so|29b3f53abf695f59093fa789cffaf79771b49568
+product/lib64/libarcsoft_dualcam_refocus.so|4e8778a48d5d9bb33ef85063ee4b9dbedfb858e2
+product/lib64/libarcsoft_frc.so|dab92e6bd066b44bb557f24c9cb2c587df2aab46
+product/lib64/libarcsoft_hdr_detection.so|b9c9d06189c7394c1a1780e7b434a58993035b49
+product/lib64/libarcsoft_hdr_scbokeh_image.so|2c2d9e9c173ed5516a7e425e6b1b1ee0b9f1d1a8
+product/lib64/libarcsoft_high_dynamic_range.so|5b377a50612bafb30af4cb271327053abfe88a32
+product/lib64/libarcsoft_multiframe_bokeh_image.so|a2ac6da70a9bc9d42ac5287127bb8faa7951a05c
+product/lib64/libarcsoft_scbokeh_Generic.so|5f51996cb89299b9c222bc211a514db3b1d398b8
+product/lib64/libas-super-slow-motion.so|a323551fbfce86d4951e964a2e94f289c0190d79
+product/lib64/libbarhopper_v3.so|156387210e424f30d2642edeff2a549d77808abd
+product/lib64/libbg-postproc-jni.so|8c9d3dc74ef641c5456640451c70cfb6507f56f2
+product/lib64/libcamerax_extension_jni.so|58f91e63adf1a7642b9f2c5fc5be915a6896c111
+product/lib64/libc++_shared.so|dbbd9e4d06e2566c31bdc744dd7391536a780cc6
+product/lib64/libc++.so|e8707820517ab7713b8ca6ac4462361e00629c26
+product/lib64/libdoc-util.so|4a81cced80dcce4869446f9970509ded771ca89b
+product/lib64/libdynamic_depth.so|515f03132a086f15c565dd89b192ede5eeca7e29
+product/lib64/libfn-beauty-vfb-legacy-base.so|f0a72449ee71ed63aecbd5783576c2f3ad5fa5cb
+product/lib64/libFNVfbEngineHAL_legacy.so|228508501f39e855c89df1463f4a44e2cb085540
+product/lib64/libfoundation.so|fedb660a03cff0cd51a11be5472c550ad8f0482a
+product/lib64/libgg-dynamic_depth.so|5019a87cd8795e5d5a498971cfa5cbcaa3b0fb1e
+product/lib64/libgg-tensorflow-lite.so|339239bd3e9efbfa6379f07f0d2d7496b10a3d74
+product/lib64/libgif.so|310d708f0c9b60c065514c1e3f1534c8ba347c7d
+product/lib64/libjpeg.so|a51f6dde2a6d7eb11378a2575a5e6bf625a15bbb
+product/lib64/liblenovo_panorama.so|13c8b6cc2366eea46c5fcb7eb3665a5ba5d38ed4
+product/lib64/libmcf-base.so|879813b31805da7ea3f8cf6409b142a7b13cf66b
+product/lib64/libmcf-jni.so|f65dd95befd29203caf6ad219c9cf580e15a05d0
+product/lib64/libmcf-qc-fd-offline_local.so|99d2dbab152e22d6ae3d552cee3a172fc886ba24
+product/lib64/libmcf-stand-alone-sm.so|dd8c3309f8835b20086c3f888a90031c7869fb77
+product/lib64/libmeishe-nv-effects-thumbnails.so|a98f88462d5e129c19d3007c73151cdf98f83cfa
+product/lib64/libmmcamera_faceproc2.so|1c732d58bf24c939f568cda340318e5b873dce3b
+product/lib64/libmorpho_cinema_graph.so|c689a3734f6963b6ad4be3a9ddfae00c1c82acb0
+product/lib64/libmorpho_panorama_gp3_core.so|af05f89eb7d96b5980337361b4cd082eeb52d400
+product/lib64/libmorpho_panorama_gp3.so|239287acb6bbb790b793538030d219742a1ff5d0
+product/lib64/libmorpho_sensor_fusion.so|bbbdfc2b980c3c5810a7d26f14c735c1b64a2af9
+product/lib64/libmot-cinemagraph-engine.so|436fec2e80ab8775e6337c42ddf0a4961dcde600
+product/lib64/libmot-util.so|db7ea99db0b906e6ef0ced21d10e5530b3bd106b
+product/lib64/libmpbase.so|07021c39abbc5c8538f6df1876a3eb3015ff9c2a
 product/lib64/libNvBeautyEffect.so|cd80f5049b2f668379f1d3ecbf6e6206de20a46d
-product/lib64/libSNPE.so|ddcec410b42f85808bb8b0d8359c7a6490a934de
+product/lib64/libqc-snpe.so|d56cb26ade27bbd4f3ce3d193982fa33523394cb
+product/lib64/libsmart_ppt.so|1ba24a17a049e175e5509a9ea1cba38940159efc
+product/lib64/libSNPE.so|a90efc5216de3cc3f20fb70f3e1ee567729f02f0
 product/lib64/libSuperSensorCPU_v05052021.so|22378fd888fc13dac8f46a250f101dbcdb6d44bc
 product/lib64/libSuperSensorProcessorCWrapper_v2.so|7e66994ee9b8c7d637afb58e0e341e5c94cf23a2
 product/lib64/libSuperSensorProcessor_v05052021.so|2c9204b230bddd089070e5b9238c85b9fe6d94f8
 product/lib64/libSuperSensor_v05052021.so|dfbfc247087c8f9dfc86401918c8026b06eaf4a5
-product/lib64/libarcsoft_dualcam_refocus.so|901b7aa334b13dc2ae3a31f2fb42f3f4b2f4a63a
-product/lib64/libarcsoft_dualcam_refocus_Adreno730.so|901b7aa334b13dc2ae3a31f2fb42f3f4b2f4a63a
-product/lib64/libarcsoft_frc.so|dab92e6bd066b44bb557f24c9cb2c587df2aab46
-product/lib64/libarcsoft_hdr_detection.so|b6ddc0c9189439c9cceb14e47f387d62f959026d
-product/lib64/libarcsoft_hdr_scbokeh_image.so|fa8bec89246f3e9e7aa1cfeb79b60199b8d0daaa
-product/lib64/libarcsoft_high_dynamic_range.so|ffda26c1012d7b638235d5e1441173c997c9dbaa
-product/lib64/libarcsoft_multiframe_bokeh_image.so|83dbf82c1b472faf5630dd6dbbc7e43be3a4f6fc
-product/lib64/libarcsoft_scbokeh_Generic.so|11e3482bbedb363b2c2a687934a7df9eee3d3bae
-product/lib64/libarcsoft_supernight.so|e511b76bda44f55e97c94a8f0ea35a9c4e2e3cbc
-product/lib64/libarcsoft_superportrait.so|920206471220f5e9abc4f62941f8bbce9c303b60
-product/lib64/libas-super-slow-motion.so|f8405a2ed321236fe07e84130cff924aeefbbd94
-product/lib64/libbarhopper_v3.so|01401953109a122c281f7e625cd6099433b34bb7
-product/lib64/libbg-postproc-jni.so|7454ef84010b2adcabbd90a2f8058020dbefd326
-product/lib64/libc++.so|e8707820517ab7713b8ca6ac4462361e00629c26
-product/lib64/libc++_shared.so|dbbd9e4d06e2566c31bdc744dd7391536a780cc6
-product/lib64/libcamerax_extension_jni.so|bd75a62e3a09fdc8340578718c056d9236e0f49b
-product/lib64/libcolorseg.so|470a2c074f252be7d9cb9f4dfe5237c55802704e
-product/lib64/libdoc-util.so|9741eae3b03919b1bf3305086343bcd7b26322dd
-product/lib64/libdynamic_depth.so|515f03132a086f15c565dd89b192ede5eeca7e29
-product/lib64/libfn-beauty-vfb-base.so|2116a9a2f2ff5e49e575e00985c3e18d295cdfbc
-product/lib64/libfoundation.so|e72e585973f06d83fb9c2608daf50a20b65c4b80
-product/lib64/libgg-dynamic_depth.so|16acd810ca1787a534ea3054839049d03ad1843f
-product/lib64/libgg-tensorflow-lite.so|58330e568802be231b74fed1461d6ea68a88fee3
-product/lib64/libgif.so|310d708f0c9b60c065514c1e3f1534c8ba347c7d
-product/lib64/libjpeg.so|a51f6dde2a6d7eb11378a2575a5e6bf625a15bbb
-product/lib64/liblenovo_panorama.so|31cc6042e0cdd661fa9ccd6472058d90dfde00d8
-product/lib64/libmcf-base.so|40fc0e39dd293b88185381fd7c7bfe3b22e329b5
-product/lib64/libmcf-jni.so|b7bf8344d350638ebb63e2d391fce5a2aa8e3981
-product/lib64/libmcf-qc-fd-offline_local.so|99d2dbab152e22d6ae3d552cee3a172fc886ba24
-product/lib64/libmcf-stand-alone-sm.so|3554a93bdf54079e54ec2292d5880bc0b7b7b42b
-product/lib64/libmeishe-nv-effects-thumbnails.so|0fa0e52431296bc34a9b9b652d8ea6b32c591e8d
-product/lib64/libmmcamera_faceproc2.so|1c732d58bf24c939f568cda340318e5b873dce3b
-product/lib64/libmorpho_cinema_graph.so|c689a3734f6963b6ad4be3a9ddfae00c1c82acb0
-product/lib64/libmorpho_easy_hdr.so|2f9b5fcc74a022d492fc20fc09b5cb3fec2ba0e4
-product/lib64/libmorpho_image_refiner_1_4_2.so|3e99884fc3ee27f9c607f5d8717acddbbddcb582
-product/lib64/libmorpho_panorama_gp3.so|b8ef93fa1b2bcc7f3166bfe8783d650182299935
-product/lib64/libmorpho_sensor_fusion.so|eee6c344fc928d2c20a5e7a139d88d7cdbac7a73
-product/lib64/libmot-cinemagraph-engine.so|788df0fddf6635997e2599315a4be1c162f7cd7d
-product/lib64/libmot-util.so|704b6032528691074dfffd28a72b3b1e11ae4526
-product/lib64/libmpbase.so|07021c39abbc5c8538f6df1876a3eb3015ff9c2a
-product/lib64/libqc-snpe.so|9b6fbb44cd3083ac4e1fa9db1666c58567206890
-product/lib64/libsmart_ppt.so|bc562289e07bb64095effd8ed473d822272b53b9
-product/lib64/libsmudge_detect.so|915e44b5013096b846b87c539d92200a0b048d23
-product/lib64/libtensorflowlite.so|17f94dc427220788db8f10d658d3a330488ac7d6
 product/lib64/libtensorflowlite_gpu_delegate.so|821bcbece27d47c49daac00a65fdf48213befad1
+product/lib64/libtensorflowlite.so|17f94dc427220788db8f10d658d3a330488ac7d6
 
 # MotCamera4 - Permissions
 product/etc/permissions/com.motorola.camera3.content.ai.xml
@@ -547,7 +537,6 @@ product/etc/permissions/com.motorola.camera3.xml
 product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml
 product/etc/permissions/privapp-permissions-com.motorola.camera3.xml
 product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml
-system_ext/etc/permissions/com.motorola.androidx.camera.extensions.xml
 
 # NFC
 vendor/bin/STFlashTool
@@ -725,54 +714,15 @@ vendor/firmware/tianma_goodix_test_limits_255.csv
 vendor/firmware/aw8622x_haptic.bin
 vendor/firmware/aw8622x_osc_rtp_12K_10s.bin
 vendor/firmware/aw8622x_rtp.bin
-vendor/firmware/aw8622x_rtp_Argo_Navis.bin
-vendor/firmware/aw8622x_rtp_Attentive.bin
-vendor/firmware/aw8622x_rtp_Awake.bin
-vendor/firmware/aw8622x_rtp_Bird_Loop.bin
-vendor/firmware/aw8622x_rtp_Brilliant_Times.bin
-vendor/firmware/aw8622x_rtp_Chimey_Phone.bin
-vendor/firmware/aw8622x_rtp_City_Lights.bin
-vendor/firmware/aw8622x_rtp_Complex.bin
-vendor/firmware/aw8622x_rtp_Crazy_Dream.bin
-vendor/firmware/aw8622x_rtp_Curve_Ball_Blend.bin
-vendor/firmware/aw8622x_rtp_Digital_Phone.bin
-vendor/firmware/aw8622x_rtp_Electrovision.bin
-vendor/firmware/aw8622x_rtp_Ether_Shake.bin
-vendor/firmware/aw8622x_rtp_Fateful_Words.bin
-vendor/firmware/aw8622x_rtp_Firefly.bin
-vendor/firmware/aw8622x_rtp_Flutey_Phone.bin
-vendor/firmware/aw8622x_rtp_Future_Funk.bin
-vendor/firmware/aw8622x_rtp_Future_Hi_Tech.bin
-vendor/firmware/aw8622x_rtp_Girtab.bin
-vendor/firmware/aw8622x_rtp_Hello.bin
-vendor/firmware/aw8622x_rtp_Hexagon.bin
-vendor/firmware/aw8622x_rtp_Hydra.bin
-vendor/firmware/aw8622x_rtp_Insert_Coin.bin
-vendor/firmware/aw8622x_rtp_Jumping_Dots.bin
-vendor/firmware/aw8622x_rtp_Keys.bin
-vendor/firmware/aw8622x_rtp_Loopy.bin
-vendor/firmware/aw8622x_rtp_Loopy_Lounge.bin
-vendor/firmware/aw8622x_rtp_Modular.bin
-vendor/firmware/aw8622x_rtp_Momentum.bin
-vendor/firmware/aw8622x_rtp_Morning.bin
-vendor/firmware/aw8622x_rtp_Moto.bin
-vendor/firmware/aw8622x_rtp_Moto_Original.bin
-vendor/firmware/aw8622x_rtp_Moto_Retro.bin
-vendor/firmware/aw8622x_rtp_Natural.bin
-vendor/firmware/aw8622x_rtp_New_Player.bin
-vendor/firmware/aw8622x_rtp_Now_or_Never.bin
-vendor/firmware/aw8622x_rtp_Onward.bin
-vendor/firmware/aw8622x_rtp_Organ_Dub.bin
-vendor/firmware/aw8622x_rtp_Overclocked.bin
-vendor/firmware/aw8622x_rtp_Pegasus.bin
-vendor/firmware/aw8622x_rtp_Play.bin
-vendor/firmware/aw8622x_rtp_Pyxis.bin
-vendor/firmware/aw8622x_rtp_Regrade.bin
-vendor/firmware/aw8622x_rtp_Scarabaeus.bin
-vendor/firmware/aw8622x_rtp_Sceptrum.bin
-vendor/firmware/aw8622x_rtp_Simple.bin
-vendor/firmware/aw8622x_rtp_Solarium.bin
-vendor/firmware/aw8622x_rtp_Sparse.bin
-vendor/firmware/aw8622x_rtp_Terrabytes.bin
-vendor/firmware/aw8622x_rtp_Verizon_Airwaves.bin
-vendor/firmware/aw8622x_rtp_Zero_Hour.bin
+
+# WPSS firmware - from S1RDS32.55-106-3
+vendor/firmware/wpss.b00|9214ea9be39a858849f2f854a13499d68208a659
+vendor/firmware/wpss.b01|e15f757c7a97f62a4d529e50769b75de7016588c
+vendor/firmware/wpss.b02|ae11da8b635ded3ed976b7d32b5e088b86a3aeaa
+vendor/firmware/wpss.b03|0590fe4f97d77dd110a8474f1219e40e9a26d6c2
+vendor/firmware/wpss.b04|a80736069f2e1a077c31ddedc04204479cf1650e
+vendor/firmware/wpss.b05|e6492d98c65316c43bd20b2e79a69de28a15c00d
+vendor/firmware/wpss.b06|3337d698242ca04332a65023b915b076f3ef6dfb
+vendor/firmware/wpss.b07|0a8b713c17d486485c3b35eea4eed471e5330004
+vendor/firmware/wpss.mdt|50925b033c00324162fd708e9cda99c75d42efec
+vendor/firmware/wpss.qdb|0684693df38ddc4647c62c386e4683c6a7aa9696

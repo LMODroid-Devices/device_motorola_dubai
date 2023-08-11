@@ -38,8 +38,10 @@ $(call inherit-product, device/motorola/sm7325-common/common.mk)
 PRODUCT_PACKAGES += \
     FrameworksResDubai \
     LineageSystemUIDubai \
+    SettingsResDubai \
     SettingsProviderResDubai \
-    SystemUIResDubai
+    SystemUIResDubai \
+    WifiResDubai
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -50,6 +52,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_ext_spkr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_ext_spkr.conf \
     $(LOCAL_PATH)/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     $(LOCAL_PATH)/audio/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml
+
+# Camera
+PRODUCT_PACKAGES += \
+    libgui_shim_vendor
 
 # Fingerprint
 PRODUCT_PACKAGES += \
