@@ -16,8 +16,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lmodroid_dubai.mk
-
-COMMON_LUNCH_CHOICES := \
-    lmodroid_dubai-user \
-    lmodroid_dubai-userdebug \
-    lmodroid_dubai-eng
